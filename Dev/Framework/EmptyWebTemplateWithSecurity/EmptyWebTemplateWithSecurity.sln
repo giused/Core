@@ -1,0 +1,85 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmptyWebTemplateWithSecurity", "EmptyWebTemplateWithSecurity\EmptyWebTemplateWithSecurity.csproj", "{224FF669-61BF-4601-AE21-59E29CC8DE8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Security.Entities", "Core.Security.Entities\Core.Security.Entities.csproj", "{212BB5E0-708C-4A9C-BC44-9E525F3B2D4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Security.Repositories", "Core.Security.Repositories\Core.Security.Repositories.csproj", "{B73AA936-BF41-4E95-BA7A-7B80D6F59CD6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Security.Services", "Core.Security.Services\Core.Security.Services.csproj", "{D4BBBEA2-FD88-4FB0-A935-5C12142C75DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web", "Web\Web.csproj", "{CFBB02A1-9BEE-4E7D-B138-48F53277A0F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Security.Models", "Core.Security.Models\Core.Security.Models.csproj", "{EF1144E5-5D3B-4115-AD52-75F7B79864FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Security", "Core.Security\Core.Security.csproj", "{ACE04A64-EFF8-4DD0-80DB-B8DF48FE4C36}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{224FF669-61BF-4601-AE21-59E29CC8DE8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{224FF669-61BF-4601-AE21-59E29CC8DE8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{224FF669-61BF-4601-AE21-59E29CC8DE8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{224FF669-61BF-4601-AE21-59E29CC8DE8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{212BB5E0-708C-4A9C-BC44-9E525F3B2D4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{212BB5E0-708C-4A9C-BC44-9E525F3B2D4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{212BB5E0-708C-4A9C-BC44-9E525F3B2D4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{212BB5E0-708C-4A9C-BC44-9E525F3B2D4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B73AA936-BF41-4E95-BA7A-7B80D6F59CD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B73AA936-BF41-4E95-BA7A-7B80D6F59CD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B73AA936-BF41-4E95-BA7A-7B80D6F59CD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B73AA936-BF41-4E95-BA7A-7B80D6F59CD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4BBBEA2-FD88-4FB0-A935-5C12142C75DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4BBBEA2-FD88-4FB0-A935-5C12142C75DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4BBBEA2-FD88-4FB0-A935-5C12142C75DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4BBBEA2-FD88-4FB0-A935-5C12142C75DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFBB02A1-9BEE-4E7D-B138-48F53277A0F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFBB02A1-9BEE-4E7D-B138-48F53277A0F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFBB02A1-9BEE-4E7D-B138-48F53277A0F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFBB02A1-9BEE-4E7D-B138-48F53277A0F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF1144E5-5D3B-4115-AD52-75F7B79864FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF1144E5-5D3B-4115-AD52-75F7B79864FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF1144E5-5D3B-4115-AD52-75F7B79864FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF1144E5-5D3B-4115-AD52-75F7B79864FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACE04A64-EFF8-4DD0-80DB-B8DF48FE4C36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACE04A64-EFF8-4DD0-80DB-B8DF48FE4C36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACE04A64-EFF8-4DD0-80DB-B8DF48FE4C36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACE04A64-EFF8-4DD0-80DB-B8DF48FE4C36}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 8
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://giuseware.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Core.Security.Entities\\Core.Security.Entities.csproj
+		SccProjectName1 = Core.Security.Entities
+		SccLocalPath1 = Core.Security.Entities
+		SccProjectUniqueName2 = Core.Security.Models\\Core.Security.Models.csproj
+		SccProjectName2 = Core.Security.Models
+		SccLocalPath2 = Core.Security.Models
+		SccProjectUniqueName3 = Core.Security.Repositories\\Core.Security.Repositories.csproj
+		SccProjectName3 = Core.Security.Repositories
+		SccLocalPath3 = Core.Security.Repositories
+		SccProjectUniqueName4 = Core.Security.Services\\Core.Security.Services.csproj
+		SccProjectName4 = Core.Security.Services
+		SccLocalPath4 = Core.Security.Services
+		SccProjectUniqueName5 = Core.Security\\Core.Security.csproj
+		SccProjectName5 = Core.Security
+		SccLocalPath5 = Core.Security
+		SccProjectUniqueName6 = EmptyWebTemplateWithSecurity\\EmptyWebTemplateWithSecurity.csproj
+		SccProjectName6 = EmptyWebTemplateWithSecurity
+		SccLocalPath6 = EmptyWebTemplateWithSecurity
+		SccProjectUniqueName7 = Web\\Web.csproj
+		SccProjectName7 = Web
+		SccLocalPath7 = Web
+	EndGlobalSection
+EndGlobal
